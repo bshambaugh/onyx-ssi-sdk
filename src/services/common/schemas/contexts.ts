@@ -2,12 +2,14 @@
  * TO BE Implemented along with support for json-ld
  */
 
-import * as credentialsContext from 'credentials-context';
+import credentialsContext from 'credentials-context';
 
 export class ContextManager {
+    static getCreds() {
+        console.log(credentialsContext);
+    }
 }
 
-console.log(credentialsContext);
 // to support verifiable credentials with json-ld by default use npm package credentials-context
 // CONTEXT_URL from this package is CONTEXT_URL: 'https://www.w3.org/2018/credentials/v1',
 // contexts from this package is a json object describing verifiable credentials (like temporary file verifiedCredential.json)
