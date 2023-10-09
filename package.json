@@ -52,6 +52,7 @@
     "typescript": "^5.0.3"
   },
   "dependencies": {
+    "@digitalbazaar/vc": "^6.0.2",
     "@ethersproject/abi": "^5.6.4",
     "@ethersproject/providers": "^5.6.8",
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.3",
@@ -75,6 +76,8 @@
     "ethr-did-resolver": "^8.0.0",
     "hardhat": "^2.14.0",
     "hardhat-gas-reporter": "^1.0.9",
+    "jsonld": "^8.3.1",
+    "jsonld-signatures": "^11.2.1",
     "jsonschema": "^1.4.1",
     "jsonwebtoken": "^9.0.0",
     "key-did-resolver": "1.4.0",
